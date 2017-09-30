@@ -17,8 +17,10 @@ Quick overview on how to build the code:
 - `git clone https://github.com/gburca/BinderDemo.git`
 - `cd BinderDemo`
 - `mm`
-- The binary should be in `<RepoTop>/out/target/product/*/system/bin/binder`.
+- `make snod` build the system.img. 
+Now the binary should be in `<RepoTop>/out/target/product/*/system/bin/binder`.
   Copy it to /system/bin/ on the phone.
+  
 
 Test the binary:
 ----------------
